@@ -1,0 +1,111 @@
+body {
+    margin: 0%;
+    color: white;
+}
+
+h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+
+.container {
+    font-family: 'Nunito', sans-serif;
+    margin: 0px 25% 0px 25%;
+    display: flex;
+    line-height: 25px;
+}
+
+.card-left {
+    width: 300px;
+    background-color: black;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-photo {
+    height: 404px;
+    width: 300px;
+}
+
+.contact {
+    margin-top: 50px;
+    padding: 0px 10px 0px 10px;
+}
+
+.phone, .location, .email {
+    display: flex;
+    margin-top: 10px;
+}
+.phone-icon, .location-icon, .email-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.contact-p {
+    margin: 0px 0px 0px 15px;
+}
+
+.card-right {
+    color: black;
+    width: 100%;
+    margin-top: 50px; 
+    border-top: 5px solid black;
+    align-items: center;
+}
+
+.aboutme {
+    margin-top: 50px;
+    padding: 0px 10% 0px 10%;
+}
+
+.skils {
+    padding: 0px 10% 0px 10%;
+    margin-top: 50px;
+}
+
+.skils-left-right {
+    display: flex;
+}
+
+.skils-left {
+    width: 50%;
+}
+
+.skils-right {
+    width: 50%;
+    text-align: center;
+    display: flex;
+}
+
+.c-icon, .cs-icon, .html5-icon, .css-icon, .exel-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.education {
+    padding: 0px 10% 0px 10%;
+    margin-top: 50px;
+}
+
+.findme {    
+    background-color: black;
+    margin-left: 50%;
+    margin-top: 10%;
+
+    padding-left: 10px;
+}
+
+.github-icon, .dio-icon, .intagran-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
