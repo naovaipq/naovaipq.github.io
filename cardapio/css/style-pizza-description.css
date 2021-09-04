@@ -81,60 +81,69 @@ h1 {
     text-align: center;
 }
 
-/*container spetialities*/
-.container-specialities {
-    margin: 50px 10%;
+/*container pizza*/
+.container-pizza {
+  margin: 50px 10%;
 }
 
-#title-spetialities {
-    text-align: center;
-}
-
-
-
-h2 {
-    margin: 0;
-    border-bottom: 3px solid rgb(255, 153, 0);
-}
-
-.spetialities {
+.pizza{
     display: flex;
     margin-top: 20px;
 }
 
-.edge {
-    width: 33.333%;
-    text-align: center;
-}
-
-.edge-imgs {
-    width: 95%;
-}
-
-/*container menu*/
-.container-menu {
-    margin: 50px 10%;
-}
-
-.flavors-row {
-    display: flex;
-    margin-top: 20px;
-}
-
-.flavor-option {
-    width: 25%;
-}
-
-.pizza-img {
+#pizza-img {
     width: 100%;
 }
-
-.pizza-info {
-    padding: 0px 10px 0px 10px;
+.pizza-photo {
+    width: 60%;
 }
+
+h2 {
+    border-bottom: 3px solid rgb(255, 153, 0);
+    margin: 0px;
+}
+
+.pizza-description-price {
+    padding: 10px;
+    border-left: 1px solid rgb(175, 175, 175);
+    width: 40%;
+}
+
+.pizza-description, .price-list {
+    height: 50%;
+}
+
+.list-title {
+    background-color: orange;
+    padding: 5px;
+}
+
+.list-title h3 {
+    text-align: center;
+    margin: 0px;
+}
+
+.form-prices {
+    display: flex;
+}
+
+.form-group {
+    width: 33.33%;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+
+
+
+
+
+
 
 /*container footer*/
 .container-footer {
+    bottom: 0;
     background-color: rgba(0, 0, 0, 0.70);
     color: white;
     padding: 10px 10% 10px 10%;
@@ -147,6 +156,9 @@ h2 {
 
 .nav-menu-f, .nav-complements-f {
     width: 50%;
+}
+
+.nav-complements-f {
 }
 
 #menu-f {
