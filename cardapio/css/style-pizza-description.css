@@ -109,9 +109,18 @@ h2 {
     width: 40%;
 }
 
-.pizza-description, .price-list {
-    height: 50%;
+.pizza-description {
+    height: 20%;
 }
+
+.pizza-description p {
+    margin: 0px;
+}
+
+.price-list {
+    height: 80%;
+}
+
 
 .list-title {
     background-color: orange;
@@ -123,17 +132,39 @@ h2 {
     margin: 0px;
 }
 
-.form-prices {
+.fieldset-prices {
     display: flex;
+    margin: 0px;
 }
 
 .form-group {
     width: 33.33%;
     text-align: center;
-    padding: 5px;
-    
+    padding: 5px;   
 }
 
+.img-drinks {
+    width: 60px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    background-color: rgb(131, 255, 107);
+    width: 50%;
+    height: 50px;
+    font-size: 160%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 3px rgb(175, 175, 175);
+}
+
+button:hover {
+    background-color: rgb(81, 250, 48);
+}
 
 
 

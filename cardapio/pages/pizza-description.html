@@ -72,26 +72,64 @@
 
 
                 <div class="price-list">
-                    <div class="list-title">
-                        <h3>Price List</h3>
-                    </div>
-
-                    <div class="prices">
+                    <div class="prices-pizza">
+                        <div class="list-title">
+                            <h3>Pizza Price</h3>
+                        </div>
                         <form action="" class="form-prices">
-                            <div class="form-group">
-                                <label for="small"> <b>Small</b><br><br>$50.90 </label><br>
-                                <input type="radio" id="small">
-                            </div>
-                            <div class="form-group">
-                                <label for="medium"> <b>Medium</b><br><br>$70.00 </label><br>
-                                <input type="radio" id="medium">
-                            </div>
-                            <div class="form-group">
-                                <label for="big"> <b>Big</b><br><br>$100.00 </label><br>
-                                <input type="radio" id="big">
-                            </div>
+                            <fieldset class="fieldset-prices">
+                                <div class="form-group">
+                                    <label for="small"> <b>Small</b><br><br>$50.90 </label><br>
+                                    <input type="radio" id="small" name="price">
+                                </div>
+                                <div class="form-group">
+                                    <label for="medium"> <b>Medium</b><br><br>$70.00 </label><br>
+                                    <input type="radio" id="medium" name="price">
+                                </div>
+                                <div class="form-group">
+                                    <label for="big"> <b>Big</b><br><br>$100.00 </label><br>
+                                    <input type="radio" id="big" name="price">
+                                </div>
+                            </fieldset>
                         </form>
                     </div>
+
+                    <div class="prices-drinks">
+                        <div class="list-title">
+                            <h3>Drink Price</h3>
+                        </div>
+                        <form action="" class="form-prices">
+                            <fieldset class="fieldset-prices">
+                                <div class="form-group">
+                                    <label for="guarana"> 
+                                        <img src="../imgs/icons/guarana-icon.png" alt="" class="img-drinks"> 
+                                        <br><b>Guaraná</b>
+                                        <br><br>$3.90 
+                                    </label><br>
+                                    <input type="checkbox" id="guarana" name="price">
+                                </div>
+                                <div class="form-group">
+                                    <label for="fanta"> <img src="../imgs/icons/fanta-icon.png" alt="" class="img-drinks">
+                                        <br><b>Fanta</b>
+                                        <br><br>$2.00 
+                                    </label><br>
+                                    <input type="checkbox" id="fanta" name="price">
+                                </div>
+                                <div class="form-group">
+                                    <label for="cola"> <img src="../imgs/icons/cocacola-icon.png" alt="" class="img-drinks">
+                                        <br><b>Cola</b>
+                                        <br><br>$10.00 
+                                    </label><br>
+                                    <input type="checkbox" id="cola" name="price">
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+
+                    <div class="button">
+                        <button>BUY NOW</button>
+                    </div>
+                    
                 </div>
             </div>
         </div>
