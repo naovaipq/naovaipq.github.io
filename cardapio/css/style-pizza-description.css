@@ -137,7 +137,7 @@ h2 {
     margin: 0px;
 }
 
-.form-group {
+.form-group-prices {
     width: 33.33%;
     text-align: center;
     padding: 5px;   
@@ -151,12 +151,12 @@ h2 {
     width: 60px;
 }
 
-.button {
+.button-price {
     text-align: center;
     margin-top: 50px;
 }
 
-button {
+#button-price {
     background-color: rgb(131, 255, 107);
     width: 50%;
     height: 50px;
@@ -166,9 +166,44 @@ button {
     box-shadow: 3px 3px 3px rgb(175, 175, 175);
 }
 
-button:hover {
+#button-price:hover {
     background-color: rgb(81, 250, 48);
 }
+
+/*container comments*/
+.container-comments {
+    margin: 50px 10%;
+}
+
+.comments {
+    margin-top: 20px;
+    width: 50%;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+.user {
+    text-align: center;
+    width: 80px;
+}
+
+.img-user {
+    width: 50px;
+}
+
+.comment-content {
+    margin-left: 20px;
+}
+
+.form-comment {
+    margin-top: 30px;
+}
+
+
 
 /*container footer*/
 .container-footer {
