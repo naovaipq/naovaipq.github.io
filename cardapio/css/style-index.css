@@ -125,6 +125,11 @@ h2 {
     width: 25%;
 }
 
+.flavors a {
+    text-decoration: none;
+    color: black;
+}
+
 .pizza-img {
     width: 100%;
 }
@@ -152,7 +157,7 @@ h2 {
 #menu-f {
     list-style-type: none;
     padding: 0;
-    width: 95%;
+    width: 50%;
 }
 
 #menu-f li {
