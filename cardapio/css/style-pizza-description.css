@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 body, html {
     height: 100%;
 }
@@ -86,11 +90,17 @@ h1 {
   margin: 50px 10%;
 }
 
+h2 {
+    border-bottom: 3px solid rgb(255, 153, 0);
+    margin: 0px;
+}
+
 .pizza{
     display: flex;
     margin-top: 20px;
 }
 
+/*left*/
 #pizza-img {
     width: 100%;
 }
@@ -98,11 +108,7 @@ h1 {
     width: 60%;
 }
 
-h2 {
-    border-bottom: 3px solid rgb(255, 153, 0);
-    margin: 0px;
-}
-
+/*right*/
 .pizza-description-price {
     padding: 10px;
     border-left: 1px solid rgb(175, 175, 175);

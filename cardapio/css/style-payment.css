@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/*container banner*/
+.container-banner{
+    background-image: url(../imgs/banner/banner-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 10% 10px 10%;
+}
+
+.nav-header {
+    color: white;
+    display: flex;
+    align-items: top;
+    width: 100%;
+}
+
+.nav-img {
+    width: 50%;
+}
+
+#logo-h {
+    height: 200px;
+    width: 200px;
+}
+
+.nav-menu-h {
+    width: 50%;
+    text-align: right;
+}
+
+#menu-h a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+#menu-h {
+    list-style-type: none;
+    padding: 0;
+    margin-right: 0px;
+}
+
+#menu-h li{
+    display: inline;
+    margin-right: 30px;
+}
+
+.title-infos {
+    margin-top: 60px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.70);
+    padding: 40px 0;
+}
+
+#title {
+    margin-left: 25%;
+    margin-right: 25%;
+    border-bottom: 3px solid rgb(255, 153, 0);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 60px;
+    margin: 0;
+}
+
+.infos-content {
+    display: flex;
+    margin-top: 30px;
+}
+.infos {
+    width: 33.333%;
+    text-align: center;
+}
+
+/*container-payment*/
+.container-payment {
+    margin: 50px 10%;
+}
+
+h2 {
+    border-bottom: 3px solid rgb(255, 153, 0);
+    margin: 0px;
+}
+
+/*client*/
+.form-client {
+    margin-top: 20px;
+}
+
+.form-title h3 {
+    text-align: center;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+input:focus {
+    outline: none;
+}
+
+#note{
+    border: 2px solid black;
+}
+
+.fieldset-client {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form-input {
+    width: 100%;
+}
+
+.col-client {
+    width: 50%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
+
+/*order-payment*/
+.form-order-payment {
+    margin-top: 20px;
+}
+
+.order-payment{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.list-title h4 {
+    background-color: cadetblue;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.col {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*left*/
+.form-group-order {
+    display: flex;
+    margin-top: 5px;
+}
+
+.form-group-order p {
+    width: 33.33%;
+    text-align: center;
+}
+
+
+
+/*rigth*/
+
+
+.fieldset-payment {
+    display: flex;
+    text-align: center;
+}
+
+.form-group-payment {
+    width: 33.33%;
+}
+
+.img-payment {
+    width: 60px;
+}
+
+/*button*/
+.button {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#button-price {
+    background-color: rgb(51, 51, 51);
+    width: 50%;
+    height: 50px;
+    font-size: 160%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 3px rgb(175, 175, 175);
+    color: white;
+}
+
+#button-price:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
+/*container footer*/
+.container-footer {
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.70);
+    color: white;
+    padding: 10px 10% 10px 10%;
+}
+.nav-footer {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-menu-f, .nav-complements-f {
+    width: 50%;
+}
+
+#menu-f {
+    list-style-type: none;
+    padding: 0;
+    width: 50%;
+}
+
+#menu-f li {
+    margin-top: 10px;
+    border-bottom: 1px solid rgba(255, 153, 0, 0.70);
+}
+
+.copyright {
+    background-color: black;
+    color: white;
+}
+
+.copyright-content {
+    padding: 10px 10% 10px 10%;
+}
+.copyright p {
+    margin: 0;
+    text-align: center;
+}

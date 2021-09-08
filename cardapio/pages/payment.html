@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../css/style-payment.css" media="screen">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+    <title>Pizza Payment</title>
+</head>
+
+<body>
+    <header class="container-banner">
+        <nav class="nav-header">
+            <div class="nav-img">
+                <a href="../index.html"><img src="../imgs/logo/logo-icon.jpg" alt="" id="logo-h"></a>
+            </div>
+            <div class="nav-menu-h">
+                <ul id="menu-h">
+                    <li><a href="../index.html">MENU</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">LOCATION</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="title-infos">
+            <div id="title">
+                <h1><strong>PIZZA RESTAURANT</strong></h1>
+            </div>
+
+            <div class="infos-content">
+                <div class="infos">
+                    <h3>FRESH INGREDIENTS</h3>
+                    <p>We only use fresh ingredients</p>
+                </div>
+                <div class="infos">
+                    <h3>WOOD OVEN</h3>
+                    <p>Our wood ovens are the latest generation</p>
+                </div>
+                <div class="infos">
+                    <h3>SEVERAL FLAVORS</h3>
+                    <p>We have the most diverse pizza flavors</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container-payment">
+        <div class="payment-title">
+            <h2>Payment</h2>
+        </div>
+
+        <form action="" class="form-client">
+            <div class="form-title">
+                <h3>Your Information</h3>
+            </div>
+            <fieldset class="fieldset-client">
+                <div class="col-client">
+                    <div class="form-group">
+                        <br>
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <br>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <br>
+                        <label for="adress">Adress</label><br>
+                        <input type="text" id="adress" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <br>
+                        <label for="phone">Phone</label><br>
+                        <input type="text" id="phone" class="form-input">
+                    </div>
+                </div>
+                <div class="col-client">
+                    <div class="form-group">
+                        <br>
+                        <label for="note">Note</label><br>
+                        <textarea id="note" rows="10" class="form-input"></textarea>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+
+        <form action="" class="form-order-payment">
+            <div class="form-title">
+                <h3>Your Order</h3>
+            </div>
+            <fieldset class="fieldset-order-payment">
+
+
+                <div class="order-payment">
+
+
+
+                    <div class="col">
+                        <div class="list-title">
+                            <h4>Orders</h4>
+                        </div>
+                        <form action="" class="form-order">
+                            <fieldset class="fieldset-order">
+                                <div class="form-group-order">
+                                    <p><b> QTY: </b> 2</p>
+                                    <p><b> Calabresa </b></p>
+                                    <p><b> $ </b> 50.90 </p>
+                                </div>
+                                <div class="form-group-order">
+                                    <p><b> QTY: </b> 3 </p>
+                                    <p><b> Guaraná </b></p>
+                                    <p><b> $ </b> 3.90 </p>
+                                </div>
+                                <div class="form-group-order">
+                                    <p><b> QTY: </b> 1 </p>
+                                    <p><b> Cola </b></p>
+                                    <p><b> $ </b> 10.00 </p>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="list-title">
+                            <h4>Payment Forms</h4>
+                        </div>
+                        <form action="" class="form-payment">
+                            <fieldset class="fieldset-payment">
+                                <div class="form-group-payment">
+                                    <label for="creditcard">
+                                        <img src="../imgs/icons/credit-card-icon.png" alt="" class="img-payment">
+                                        <br>Credit Card
+                                        <br><br><b>$150.00</b>
+                                    </label><br>
+                                    <input type="radio" id="creditcard" name="payment">
+                                </div>
+                                <div class="form-group-payment">
+                                    <label for="pix"> <img src="../imgs/icons/pix-icon.png" alt="" class="img-payment">
+                                        <br>Pix
+                                        <br><br><b>$100.00</b>
+                                    </label><br>
+                                    <input type="radio" id="pix" name="payment">
+                                </div>
+                                <div class="form-group-payment">
+                                    <label for="money"> <img src="../imgs/icons/dinheiro-icon.png" alt=""
+                                            class="img-payment">
+                                        <br>Money
+                                        <br><br><b>$123.50</b>
+                                    </label><br>
+                                    <input type="radio" id="money" name="payment">
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="button">
+                    <button id="button-price">FINALIZE ORDER</button>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+
+
+    <footer class="container-footer">
+        <nav class="nav-footer">
+            <div class="nav-menu-f">
+                <b>NAVEGATION</b>
+                <ul id="menu-f">
+                    <li>Menu</li>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                    <li>Location</li>
+                </ul>
+            </div>
+            <div class="nav-complements-f">
+                <b>COMPLEMENTS</b>
+                <ul id="menu-f">
+                    <li>Promotions</li>
+                    <li>Drinks</li>
+                    <li>Deserts</li>
+                    <li>Deliveries</li>
+                    <li>Payment Methods</li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+    <div class="copyright">
+        <div class="copyright-content">
+            <p>COPYRIGHT <B>RESTAURANT PIZZA</B></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
