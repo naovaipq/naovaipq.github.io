@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--Link CSS-->
     <link rel="stylesheet" type="text/css" href="../css/style-pizza-description.css" media="screen">
 
+    <!--Link GoogleFonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
@@ -16,11 +18,16 @@
 </head>
 
 <body>
+
+    <!--Container Banner-->
+    <!--Header-->
     <header class="container-banner">
         <nav class="nav-header">
+            <!--Imagem Logo-->
             <div class="nav-img">
                 <a href="../index.html"><img src="../imgs/logo/logo-icon.jpg" alt="" id="logo-h"></a>
             </div>
+            <!--Menu de Navegação-->
             <div class="nav-menu-h">
                 <ul id="menu-h">
                     <li><a href="../index.html">MENU</a></li>
@@ -30,11 +37,11 @@
                 </ul>
             </div>
         </nav>
+        <!--Nome do Restaurante e Informações-->
         <div class="title-infos">
             <div id="title">
                 <h1><strong>PIZZA RESTAURANT</strong></h1>
             </div>
-
             <div class="infos-content">
                 <div class="infos">
                     <h3>FRESH INGREDIENTS</h3>
@@ -52,15 +59,20 @@
         </div>
     </header>
 
+    <!--Container Pizza-->
     <div class="container-pizza">
         <div class="pizza-title">
             <h2>Calabresa</h2>
         </div>
         <div class="pizza">
+            <!--Lado Esquerdo - Imagem-->
             <div class="pizza-photo">
                 <img src="../imgs/pizzas/calabresa.png" alt="" id="pizza-img">
             </div>
+
+            <!--Lado Direito - Descrições-->
             <div class="pizza-description-price">
+                <!--Ingredientes-->
                 <div class="pizza-description">
                     <p>
                         <b>Ingredientes:</b>
@@ -69,6 +81,7 @@
                         Molho, muçarela, calabresa, cebola fatiada e orégano.
                     </p>
                 </div>
+                <!--Lista de Preços Pizza-->
                 <div class="price-list">
                     <div class="prices-pizza">
                         <div class="list-title">
@@ -76,14 +89,17 @@
                         </div>
                         <form action="" class="form-prices">
                             <fieldset class="fieldset-prices">
+                                <!--Pequena-->
                                 <div class="form-group-prices">
                                     <label for="small"> <b>Small</b><br><br>$50.90 </label><br>
                                     <input type="radio" id="small" name="price">
                                 </div>
+                                <!--Média-->
                                 <div class="form-group-prices">
                                     <label for="medium"> <b>Medium</b><br><br>$70.00 </label><br>
                                     <input type="radio" id="medium" name="price">
                                 </div>
+                                <!--Grande-->
                                 <div class="form-group-prices">
                                     <label for="big"> <b>Big</b><br><br>$100.00 </label><br>
                                     <input type="radio" id="big" name="price">
@@ -91,13 +107,14 @@
                             </fieldset>
                         </form>
                     </div>
-
+                    <!--Lista de Preços Bebidas-->
                     <div class="prices-drinks">
                         <div class="list-title">
                             <h3>Drink Price</h3>
                         </div>
                         <form action="" class="form-prices">
                             <fieldset class="fieldset-prices">
+                                <!--Guaraná-->
                                 <div class="form-group-prices">
                                     <label for="guarana">
                                         <img src="../imgs/icons/guarana-icon.png" alt="" class="img-drinks">
@@ -106,6 +123,7 @@
                                     </label><br>
                                     <input type="checkbox" id="guarana" name="price">
                                 </div>
+                                <!--Fanta-->
                                 <div class="form-group-prices">
                                     <label for="fanta"> <img src="../imgs/icons/fanta-icon.png" alt=""
                                             class="img-drinks">
@@ -114,6 +132,7 @@
                                     </label><br>
                                     <input type="checkbox" id="fanta" name="price">
                                 </div>
+                                <!--Cola-->
                                 <div class="form-group-prices">
                                     <label for="cola"> <img src="../imgs/icons/cocacola-icon.png" alt=""
                                             class="img-drinks">
@@ -125,6 +144,7 @@
                             </fieldset>
                         </form>
                     </div>
+                    <!--Botão Pedido-->
                     <div class="button-price">
                         <a href="../pages/payment.html"> <button id="button-price">ORDER NOW</button> </a>
                     </div>
@@ -133,20 +153,21 @@
         </div>
     </div>
 
+    <!--Contaneiner Comentários-->
     <div class="container-comments">
         <div class="comments-title">
             <h2>Comments</h2>
         </div>
-
+        <!--Comentários-->
         <div class="comments">
             <div class="comment">
+                <!--Comentário 1-->
                 <div class="user">
                     <img src="../imgs/icons/user-icon.png" alt="" class="img-user">
                     <br>
                     <div class="user-name">
                         <b>Levi</b>
                     </div>
-
                 </div>
                 <div class="comment-content">
                     <p>
@@ -154,6 +175,7 @@
                     </p>
                 </div>
             </div>
+            <!--Comentário 2-->
             <div class="comment">
                 <div class="user">
                     <img src="../imgs/icons/user-icon.png" alt="" class="img-user">
@@ -161,7 +183,6 @@
                     <div class="user-name">
                         <b>Mr. Bianchi</b>
                     </div>
-
                 </div>
                 <div class="comment-content">
                     <p>
@@ -170,7 +191,7 @@
                 </div>
             </div>
         </div>
-
+        <!--Adicionar Comentario-->
         <form action="" class="form-comment">
             <div class="form-group">
                 <label for="textArea">Add Comment:</label><br>
@@ -182,35 +203,37 @@
     </div>
         
 
-    <footer class="container-footer">
+     <!--Container Footer-->
+     <footer class="container-footer">
+        <!--Menus de Navegação-->
         <nav class="nav-footer">
             <div class="nav-menu-f">
                 <b>NAVEGATION</b>
-                <ul id="menu-f">
-                    <li>Menu</li>
-                    <li>About Us</li>
-                    <li>Contact</li>
-                    <li>Location</li>
+                <ul class="menu-f">
+                    <li> <a href="../index.html">Menu</a> </li>
+                    <li> <a href="#">About Us</a> </li>
+                    <li> <a href="#"> Contact</a> </li>
+                    <li> <a href="#">Location</a> </li>
                 </ul>
             </div>
             <div class="nav-complements-f">
                 <b>COMPLEMENTS</b>
-                <ul id="menu-f">
-                    <li>Promotions</li>
-                    <li>Drinks</li>
-                    <li>Deserts</li>
-                    <li>Deliveries</li>
-                    <li>Payment Methods</li>
+                <ul class="menu-f">
+                    <li> <a href="#">Promotions</a> </li>
+                    <li> <a href="#">Drinks</a> </li>
+                    <li> <a href="#">Deserts</a> </li>
+                    <li> <a href="#">Deliveries</a> </li>
+                    <li> <a href="#">Payment Methods </a> </li>
                 </ul>
             </div>
         </nav>
     </footer>
+    <!--Copyright-->
     <div class="copyright">
         <div class="copyright-content">
             <p>COPYRIGHT <B>RESTAURANT PIZZA</B></p>
         </div>
     </div>
-
+    
 </body>
-
 </html>

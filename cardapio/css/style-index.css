@@ -67,7 +67,6 @@ body{
 
 h1 {
     text-align: center;
-    font-family: 'Courgette', cursive;
     font-size: 60px;
     margin: 0;
 }
@@ -88,6 +87,7 @@ h1 {
 
 #title-spetialities {
     text-align: center;
+    font-family: 'Courgette', cursive;
 }
 
 
@@ -108,6 +108,7 @@ h2 {
 }
 
 .edge-imgs {
+    height: 70%;
     width: 95%;
 }
 
@@ -154,13 +155,18 @@ h2 {
     width: 50%;
 }
 
-#menu-f {
+.menu-f {
     list-style-type: none;
     padding: 0;
     width: 50%;
 }
 
-#menu-f li {
+.menu-f a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-f li {
     margin-top: 10px;
     border-bottom: 1px solid rgba(255, 153, 0, 0.70);
 }

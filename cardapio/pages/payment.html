@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--Link CSS-->
     <link rel="stylesheet" type="text/css" href="../css/style-payment.css" media="screen">
 
+    <!--Links GoogleFonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
@@ -16,11 +18,15 @@
 </head>
 
 <body>
+
+    <!--Container Banner-->
     <header class="container-banner">
         <nav class="nav-header">
+            <!--Imagem Logo-->
             <div class="nav-img">
                 <a href="../index.html"><img src="../imgs/logo/logo-icon.jpg" alt="" id="logo-h"></a>
             </div>
+            <!--Menu de Navegação-->
             <div class="nav-menu-h">
                 <ul id="menu-h">
                     <li><a href="../index.html">MENU</a></li>
@@ -30,6 +36,7 @@
                 </ul>
             </div>
         </nav>
+        <!--Nome do Retaurante e Informações-->
         <div class="title-infos">
             <div id="title">
                 <h1><strong>PIZZA RESTAURANT</strong></h1>
@@ -52,33 +59,37 @@
         </div>
     </header>
 
-
+    <!--Container Pagamento-->
     <div class="container-payment">
         <div class="payment-title">
             <h2>Payment</h2>
         </div>
-
+        <!--Form informações do Cliente-->
         <form action="" class="form-client">
             <div class="form-title">
                 <h3>Your Information</h3>
             </div>
             <fieldset class="fieldset-client">
                 <div class="col-client">
+                    <!--Nome-->
                     <div class="form-group">
                         <br>
                         <label for="name">Name</label><br>
                         <input type="text" id="name" class="form-input">
                     </div>
+                    <!--Email-->
                     <div class="form-group">
                         <br>
                         <label for="email">Email</label><br>
                         <input type="email" id="email" class="form-input">
                     </div>
+                    <!--Endereço-->
                     <div class="form-group">
                         <br>
                         <label for="adress">Adress</label><br>
                         <input type="text" id="adress" class="form-input">
                     </div>
+                    <!--Telefone-->
                     <div class="form-group">
                         <br>
                         <label for="phone">Phone</label><br>
@@ -86,6 +97,7 @@
                     </div>
                 </div>
                 <div class="col-client">
+                    <!--Nota do Cliente-->
                     <div class="form-group">
                         <br>
                         <label for="note">Note</label><br>
@@ -94,18 +106,14 @@
                 </div>
             </fieldset>
         </form>
-
+        <!--Form Pedido e Pagamento-->
         <form action="" class="form-order-payment">
             <div class="form-title">
                 <h3>Your Order</h3>
             </div>
             <fieldset class="fieldset-order-payment">
-
-
                 <div class="order-payment">
-
-
-
+                    <!--Lado esquerdo - Pedido-->
                     <div class="col">
                         <div class="list-title">
                             <h4>Orders</h4>
@@ -130,14 +138,15 @@
                             </fieldset>
                         </form>
                     </div>
-
-
+                    <!--Lado Direito - Formas de Pagamento-->
                     <div class="col">
                         <div class="list-title">
                             <h4>Payment Forms</h4>
                         </div>
+                        <!--Form Pagamento-->
                         <form action="" class="form-payment">
                             <fieldset class="fieldset-payment">
+                                <!--Cartão de Crédito-->
                                 <div class="form-group-payment">
                                     <label for="creditcard">
                                         <img src="../imgs/icons/credit-card-icon.png" alt="" class="img-payment">
@@ -146,6 +155,7 @@
                                     </label><br>
                                     <input type="radio" id="creditcard" name="payment">
                                 </div>
+                                <!--Pix-->
                                 <div class="form-group-payment">
                                     <label for="pix"> <img src="../imgs/icons/pix-icon.png" alt="" class="img-payment">
                                         <br>Pix
@@ -153,6 +163,7 @@
                                     </label><br>
                                     <input type="radio" id="pix" name="payment">
                                 </div>
+                                <!--Dinheiro-->
                                 <div class="form-group-payment">
                                     <label for="money"> <img src="../imgs/icons/dinheiro-icon.png" alt=""
                                             class="img-payment">
@@ -165,45 +176,45 @@
                         </form>
                     </div>
                 </div>
-
+                <!--Botão Finalizar Pedido-->
                 <div class="button">
                     <button id="button-price">FINALIZE ORDER</button>
                 </div>
-
             </fieldset>
         </form>
     </div>
 
-
+    <!--Container Footer-->
     <footer class="container-footer">
+        <!--Menus de Navegação-->
         <nav class="nav-footer">
             <div class="nav-menu-f">
                 <b>NAVEGATION</b>
-                <ul id="menu-f">
-                    <li>Menu</li>
-                    <li>About Us</li>
-                    <li>Contact</li>
-                    <li>Location</li>
+                <ul class="menu-f">
+                    <li> <a href="../index.html">Menu</a> </li>
+                    <li> <a href="#">About Us</a> </li>
+                    <li> <a href="#"> Contact</a> </li>
+                    <li> <a href="#">Location</a> </li>
                 </ul>
             </div>
             <div class="nav-complements-f">
                 <b>COMPLEMENTS</b>
-                <ul id="menu-f">
-                    <li>Promotions</li>
-                    <li>Drinks</li>
-                    <li>Deserts</li>
-                    <li>Deliveries</li>
-                    <li>Payment Methods</li>
+                <ul class="menu-f">
+                    <li> <a href="#">Promotions</a> </li>
+                    <li> <a href="#">Drinks</a> </li>
+                    <li> <a href="#">Deserts</a> </li>
+                    <li> <a href="#">Deliveries</a> </li>
+                    <li> <a href="#">Payment Methods </a> </li>
                 </ul>
             </div>
         </nav>
     </footer>
+    <!--Copyright-->
     <div class="copyright">
         <div class="copyright-content">
             <p>COPYRIGHT <B>RESTAURANT PIZZA</B></p>
         </div>
     </div>
-
+    
 </body>
-
 </html>
