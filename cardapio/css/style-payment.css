@@ -133,7 +133,6 @@ input:focus {
     padding-right: 12.5%;
 }
 
-
 /*order-payment*/
 .form-order-payment {
     margin-top: 20px;
@@ -169,11 +168,7 @@ input:focus {
     text-align: center;
 }
 
-
-
 /*rigth*/
-
-
 .fieldset-payment {
     display: flex;
     text-align: center;
@@ -209,9 +204,6 @@ input:focus {
     background-color: rgb(0, 0, 0);
 }
 
-
-
-
 /*container footer*/
 .container-footer {
     bottom: 0;
@@ -245,6 +237,7 @@ input:focus {
     border-bottom: 1px solid rgba(255, 153, 0, 0.70);
 }
 
+/*Copyright*/
 .copyright {
     background-color: black;
     color: white;
