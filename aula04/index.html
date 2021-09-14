@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aula 04</title>
+
+    <style>
+
+        h1, h2 {
+            color: green;
+        }
+        div {
+            background-color: rgb(226, 226, 226);
+            color: blue;
+        }
+        
+        .minhaClasse {
+            color: red;
+        }
+
+        .minhaClasse h1{
+            color: violet;
+        }
+
+        div .minhaClasse{
+            color: green;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h1>Exemplos de seletor por tag e id</h1>
+    <h2>Um id deve ser único dentro de um documento</h2>
+
+    <div>
+        <h1>Título 1</h1>
+        <h2>Sub-Título 1</h2>
+        <div> Texto 1 </div>
+        <p>Paragrafo 1</p>
+    </div>
+
+    <div class="minhaClasse">
+        <h1>Título 1</h1>
+        <h2>Sub-Título 1</h2>
+        <div> Texto 2 - Eu continuo azul</div>
+        <p>Paragrafo 2</p>
+    </div>
+
+    <div class="minhaClasse">
+        <h1>Título 1</h1>
+        <h2>Sub-Título 1</h2>
+        <div> Texto 3 </div>
+        <p class="minhaClasse">Paragrafo 3</p>
+    </div>
+    
+
+</body>
+</html>
