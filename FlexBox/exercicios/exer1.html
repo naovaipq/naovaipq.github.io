@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exercício 1</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        .boxcinza {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin: auto;
+            padding: 10px;
+            background-color: rgb(175, 175, 175);
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;       
+        }
+
+        .col {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+
+        .box {
+            color: white;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+        }
+
+        #box1 {
+            background-color: rgb(236, 37, 37);
+            height: 310px;
+            width: 300px;
+        }
+
+        #box2 {
+            background-color: rgb(37, 236, 120);
+            height: 150px;
+            width: 350px;
+        }
+
+        #box3 {
+            background-color: hotpink;
+            height: 150px;
+            width: 200px;
+        }
+
+        #box4{
+            background-color: blue;
+            height: 70px;
+            width: 140px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxcinza">
+        <div class="row">
+            <div class="col">
+                <div class="box" id="box1">1</div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="box" id="box2">2</div>
+                </div>
+                <div class="row" id="rowmaior">
+                    <div class="col">
+                        <div class="box" id="box3">3</div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <div class="box" id="box4">4a</div>
+                        </div>
+                        <div class="row">
+                            <div class="box" id="box4">4b</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

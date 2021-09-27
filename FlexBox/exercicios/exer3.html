@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exercício 3</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        .boxcinza {
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            padding: 10px;
+            background-color: rgb(175, 175, 175);
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .col {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+        }
+
+        .box {
+            color: white;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+        }
+
+        #box1 {
+            background-color: rgb(100, 61, 138);
+            height: 300px;
+            width: 300px;
+        }
+
+        #box2e3 {
+            background-color: rgb(97, 177, 104);
+            height: 145px;
+            width: 145px;
+        }
+
+        #box4 {
+            background-color: blue;
+            height: 100px;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxcinza">
+        <div class="row">
+            <div class="col">
+                <div class="box" id="box1">1</div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <div class="box" id="box2e3">2a</div>
+                    </div>
+                    <div class="col">
+                        <div class="box" id="box2e3">2b</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="box" id="box2e3">2c</div>
+                    </div>
+                    <div class="col">
+                        <div class="box" id="box2e3">2d</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <div class="box" id="box2e3">3a</div>
+                    </div>
+                    <div class="col">
+                        <div class="box" id="box2e3">3b</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="box" id="box2e3">2c</div>
+                    </div>
+                    <div class="col">
+                        <div class="box" id="box2e3">3d</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="box" id="box1">4</div>
+            </div>
+        </div>
+</body>
+
+</html>
