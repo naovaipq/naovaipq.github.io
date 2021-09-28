@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWeb</title>
+
+    <style>
+        h1 {
+            width: 100%;
+            text-align: center;
+        }
+
+        .row{
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .col{
+            width: 600px;
+        }
+
+        .curriculo, .cardapio, .flexBox {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #img-curriculo, #img-cardapio, #img-flexbox {
+            width: 500px;
+        }
+
+        .curriculo>a, .cardapio>a, .flexBox>a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tarefas e Exercícios de Programação Web</h1>
+
+    <div class="row">
+        <div class="col">
+            <div class="curriculo">
+                <a href="curriculo/index.html">
+                    <h2>Curriculo</h2>
+                    <img src="curriculo/imgs/curriculo.png" alt="" id="img-curriculo">
+                    <br>
+                    <br>
+                    <p>Curriculo feito em html e css</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="cardapio">
+                <a href="cardapio/index.html">
+                    <h2>Cardápio</h2>
+                    <img src="cardapio/imgs/cardapio.png" alt="" id="img-cardapio">
+                    <br>
+                    <br>
+                    <p>Cardápio feito em html css</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col">
+            <div class="flexBox">
+                <a href="FlexBox/index.html">
+                    <h2>Exercicios FlexBox</h2>
+                    <img src="FlexBox/img/exer3.png" alt="" id="img-flexbox">
+                    <br>
+                    <br>
+                    <p>Exercícios com flexbox css</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
