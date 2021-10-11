@@ -1,0 +1,18 @@
+.scrollSpySite{
+    position: relative;
+    overflow: auto;
+    height: 355px;
+}
+
+.scroll::-webkit-scrollbar {
+width:10px;
+height: 10px;
+}
+     
+.scroll::-webkit-scrollbar-track {
+background:#333;
+}
+     
+.scroll::-webkit-scrollbar-thumb {
+background: #000000;
+}
