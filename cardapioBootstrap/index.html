@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <!--css-->
+  <link rel="stylesheet" href="css/style.css">
+  <!--font-awesome-->
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/brands.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/solid.css">
+  <!--GoogleFonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+  <title>Pizza Restaurant</title>
+</head>
+
+<body>
+  <!--navbar-->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="imgs/logo/logo-nav.jpg" style="height: 55px; width: 128px;" alt=""></a>
+      <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav me-1 mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">MENU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">LOCATION</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              SOCIAL
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Facebook</a></li>
+              <li><a class="dropdown-item" href="#">Instagram</a></li>
+              <li><a class="dropdown-item" href="https://github.com/naovaipq">GitHub</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-warning" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!--Banner Image-->
+  <div class="banner-image vh-100 w-100 d-flex justify-content-center align-items-center"
+    style="background-image: url(imgs/banner/banner.jpg);">
+    <div class="content text-center">
+
+      <div class="container desfoque">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-light display-5 mt-5"><b></b></h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <img src="imgs/logo/logo-icon.jpg" class="img-fluid">
+          </div>
+        </div>
+        <div class="row text-light mt-5">
+          <div class="col-md-4 ">
+            <h3>FRESH INGREDIENTS</h3>
+            <p>We only use fresh ingredients</p>
+          </div>
+          <div class="col-md-4 ">
+            <h3>WOOD OVEN</h3>
+            <p>Our wood ovens are the latest generation</p>
+          </div>
+          <div class="col-md-4 mb-5">
+            <h3>SEVERAL FLAVORS</h3>
+            <p>We have the most diverse pizza flavors</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--main content-->
+  <div class="container">
+    <div class="container mt-5">
+      <div class="col-12">
+        <h2 class="text-center">OUR SPETIALITIES WITH EDGES</h2>
+      </div>
+      <div class="row justify-content-center mt-4">
+        <div class="col-sm-12 col-lg-7">
+          <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imgs/edges/giga-edge.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-sm-block">
+                  <h5 class="display-5">Giga Edge</h5>
+                  <p>Simply a gigantic edge and lots of stuffing</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/edges/volcano-edge.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-sm-block">
+                  <h5 class="display-5">Volcano Edge</h5>
+                  <p>Round edges of the hottest stuffing</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/edges/stuffed-edge.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-sm-block">
+                  <h5 class="display-5">Stuffed Edge</h5>
+                  <p>Various edge fillings</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center mt-3">
+        <h5 class="d-block d-sm-none">Giga Edge</h5>
+        <p class="d-block d-sm-none">Simply a gigantic edge and lots of stuffing</p>
+        <h5 class="d-block d-sm-none">Volcano Edge</h5>
+        <p class="d-block d-sm-none">Round edges of the hottest stuffing</p>
+        <h5 class="d-block d-sm-none">Stuffed Edge</h5>
+        <p class="d-block d-sm-none">Various edge fillings</p>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="col-12">
+        <h2><i class="fas fa-pizza-slice"></i> Menu</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <a href="pages/payment.html" class="text-dark nav-link">
+            <div class="card border-0">
+              <img src="imgs/pizzas/mucarela.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Muçarela</h5>
+                <p class="card-text">Ingredientes: Molho, muçarela, tomate em rodelas e orégano.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <a href="pages/payment.html" class="text-dark nav-link">
+            <div class="card border-0">
+              <img src="imgs/pizzas/pepperon.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pepperoni</h5>
+                <p class="card-text">Ingredientes: Molho, muçarela, salame pepperoni fatiado e orégano.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <a href="pages/payment.html" class="text-dark nav-link">
+            <div class="card border-0">
+              <img src="imgs/pizzas/chester-catupiry.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chester c/ Catupiry</h5>
+                <p class="card-text">Ingredientes: Molho, muçarela, chester defumado, catupiry, azeitonas e orégano.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <a href="pages/payment.html" class="text-dark nav-link">
+            <div class="card border-0">
+              <img src="imgs/pizzas/calabresa.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Calabresa</h5>
+                <p class="card-text">Ingredientes: Molho, muçarela, calabresa, cebola fatiada e orégano.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <a href="pages/payment.html" class="text-dark nav-link">
+            <div class="card border-0">
+              <img src="imgs/pizzas/file-provolone.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Filé c/ Provolone</h5>
+                <p class="card-text">Ingredientes: Molho, muçarela, iscas de filé, provolone e orégano.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <a href="pages/payment.html" class="text-dark nav-link">
+            <div class="card border-0">
+              <img src="imgs/pizzas/camarao-catupiry.png" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Camarão c/ Catupiry</h5>
+                <p class="card-text">Ingredientes: Molho, muçarela, camarões ao molho, catupiry e orégano.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <a href="pages/payment.html" class="text-dark nav-link">
+            <div class="card border-0">
+              <img src="imgs/pizzas/parma-rucula.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Parma c/ Rucula</h5>
+                <p class="card-text">Ingredientes: Molho, muçarela, presunto tipo parma, tomates secos, rúcula e
+                  orégano.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <a href="pages/payment.html" class="text-dark nav-link">
+            <div class="card border-0">
+              <img src="imgs/pizzas/chocolatePretomms.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chocolate c/ M&M's</h5>
+                <p class="card-text">Ingredientes: Muçarela, chocolate e M&M`s.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center text-lg-start bg-light text-muted mt-5">
+    <div class="container">
+      <div class="d-flex justify-content-center justify-content-center p-4 border-bottom">
+        <div>
+          <a href="#" class="me-4 text-reset display-5"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://github.com/naovaipq" class="me-4 text-reset display-5"><i class="fab fa-github"></i></a>
+          <a href="#" class="me-4 text-reset display-5"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="container text-center text-md-start mt-5"> 
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Pizza Restaurant</h6>
+            <p>We are a pizzeria with a lot of tradition. Life with pizza is tastier</p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+            <p><a href="#" class="text-reset">Pizzas</a></p>
+            <p><a href="#" class="text-reset">Drinks</a></p>
+            <p><a href="#" class="text-reset">Desserts</a></p>
+          </div>   
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Complements</h6>
+            <p><a href="#" class="text-reset">Pricing</a></p>
+            <p><a href="#" class="text-reset">Deliverys</a></p>
+            <p><a href="#" class="text-reset">Payment Forms</a></p>
+            <p><a href="#" class="text-reset">Help</a></p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> Itu, 10012, SP</p>
+            <p><i class="fas fa-envelope me-3"></i> pizzarestaurant@example.com</p>
+            <p><i class="fas fa-phone me-3"></i> 4002-8922</p>
+            <p><i class="fas fa-print me-3"></i> 0800-777-7000 </p>
+          </div>   
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://github.com/naovaipq">naovaipq</a>
+    </div>
+  </footer>
+
+  <!--Bootstrap JS-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!--js navbar-->
+  <script type="text/javascript">
+    var nav = document.querySelector('nav');
+
+    window.addEventListener('scroll', function () {
+      if (window.pageYOffset > 100) {
+        nav.classList.add('bg-dark', 'shadow');
+      } else {
+        nav.classList.remove('bg-dark', 'shadow');
+      }
+    });
+  </script>
+
+</body>
+
+</html>

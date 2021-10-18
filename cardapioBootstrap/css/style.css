@@ -1,0 +1,35 @@
+.banner-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: 'Courgette', cursive;
+}
+
+h2{
+    border-bottom: 3px solid rgb(255, 153, 0);
+}
+
+h3{
+    font-family: sans-serif;
+}
+
+.desfoque{
+    background-color: rgba(0, 0, 0, 0.70);
+}
+
+.scrollSpySite{
+    position: relative;
+    overflow: auto;
+    height: 355px;
+}
+
+::-webkit-scrollbar {
+width:10px;
+height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: rgb(255, 153, 0);
+}
